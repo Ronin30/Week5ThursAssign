@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose a Random Number</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        var number = Math.ceil(Math.random() * 10);
+        var randomnum = prompt('Guess the number between 1 and 10');
+        if (randomnum === number)
+            alert('You are Correct!');
+        else
+            alert('Try again! ' + 'We Actually Have Choosen '+ number);
+    </script>
+</body>
+</html>
